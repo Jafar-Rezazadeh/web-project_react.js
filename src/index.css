@@ -213,7 +213,9 @@ body {
   overflow: hidden;
   white-space: pre-wrap;
   text-overflow: ellipsis;
-  max-height: 150px;
+  max-height: 100px;
+  padding: 20px;
+  direction: rtl;
 }
 
 .Card a {

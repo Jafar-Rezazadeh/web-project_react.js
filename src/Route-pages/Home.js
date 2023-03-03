@@ -5,6 +5,9 @@ import About from '../Components/About';
 
 // * images
 import buildsoftapp from '../images/buildsoftapp.png'
+import react_buildsoftapp from '../images/reactBuildsoftapp.JPG'
+import kabinetfroshy from '../images/kabinetFroshy.JPG'
+
 import slidebar_img from '../images/1.gif'
 import skillsImg from '../images/skills-img.jpg'
 import { useRef } from 'react';
@@ -71,40 +74,27 @@ const Home = () => {
                                 variants={progressBarvariant}
                                 initial='hidden'
                                 animate='visible'
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 110,
-                                    delay: 0.2
-                                }}
+                                transition={{ type: 'spring', stiffness: 110, delay: 0.2 }}
                             >
-                                <ProgressBar val={60} name='Flutter' />
+                                <ProgressBar val={70} name='Flutter' />
                             </motion.div>
 
                             <motion.div
                                 variants={progressBarvariant}
                                 initial='hidden'
                                 animate='visible'
-                                transition={{
-
-                                    type: 'spring',
-                                    stiffness: 110,
-                                    delay: 0.6
-                                }}
+                                transition={{ type: 'spring', stiffness: 110, delay: 0.6 }}
                             >
-                                <ProgressBar val={50} name='React.js' />
+                                <ProgressBar val={60} name='React.js' />
                             </motion.div>
 
                             <motion.div
                                 variants={progressBarvariant}
                                 initial='hidden'
                                 animate='visible'
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 110,
-                                    delay: 0.9
-                                }}
+                                transition={{ type: 'spring', stiffness: 110, delay: 0.9 }}
                             >
-                                <ProgressBar val={100} name='Vue.js' />
+                                <ProgressBar val={40} name='Vue.js' />
                             </motion.div>
                         </div>
                         <img src={skillsImg} alt="" />
@@ -126,29 +116,18 @@ const Home = () => {
                             پروژه های متن باز</motion.h3>
 
                         <motion.div className="projectCards"
-                            initial={{
-
-                                scale: 0.3,
-
-                            }}
-                            animate={{
-
-                                scale: 1,
-
-                            }}
-                            transition={{
-                                duration: 1,
-                                delay: 0.4,
-                            }}
+                            initial={{ scale: 0.3, }}
+                            animate={{ scale: 1, }}
+                            transition={{ duration: 1, delay: 0.4, }}
                         >
                             <motion.div
                                 initial={{ y: '100vh' }}
                                 animate={{ y: 0 }}
                                 transition={{ delay: 0.45, duration: 1.5, type: 'spring', stiffness: 110 }}
                             >
-                                <Card title='project1' description={lorem} img={buildsoftapp} />
-                                <Card title='project1' description={lorem} img={buildsoftapp} />
-                                <Card title='project1' description={lorem} img={buildsoftapp} />
+                                <Card title='Vue-buildsoftapp.ir' description="نرم افزار وب، ساخته شده با فریم ورک(vue.js)" img={buildsoftapp} />
+                                <Card title='React-buildsoftapp.ir' description="نرم افزار وب، ساخته شده با فریم ورک(react.js)" img={react_buildsoftapp} />
+                                <Card title='Flutter-kabinet-foroshy' description="نرم افزار ویندوز، ساخته شده با فریم ورک(Flutter)" img={kabinetfroshy} />
                             </motion.div>
                         </motion.div>
                     </div>

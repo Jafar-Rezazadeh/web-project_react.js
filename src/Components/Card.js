@@ -4,8 +4,8 @@ const Card = (props) => {
             <img src={props.img} alt="" />
             <h5>{props.title}</h5>
 
-            <p>{props.description.substring(0, 150) + " ..."}</p>
-            <a href="g">...بیشتر</a >
+            <p>{props.description.substring(0, 50) + " ..."}</p>
+            <a href="g">GitHub</a >
         </div>
     );
 }
