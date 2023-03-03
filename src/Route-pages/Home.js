@@ -10,6 +10,7 @@ import skillsImg from '../images/skills-img.jpg'
 import { useRef } from 'react';
 
 
+// Todo: make a repositry for this project
 
 
 
