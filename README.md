@@ -1,6 +1,6 @@
 
 ### Single Page Application for Web made by Vue.js 
-## Made by Jafar.Rezazadeh contact me: https://jafarrezazadeh76@gmail.com
+## Made by Jafar.Rezazadeh, contact me: https://jafarrezazadeh76@gmail.com
 
 ### Preview
 
